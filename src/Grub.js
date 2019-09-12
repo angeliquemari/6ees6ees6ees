@@ -1,7 +1,7 @@
 class Grub {
-    constructor(age = 0, color = 'pink') {
-        this.age = age;
-        this.color = color;
+    constructor() {
+        this.age = 0;
+        this.color = 'pink';
         this.food = 'jelly';
     }
     eat() {

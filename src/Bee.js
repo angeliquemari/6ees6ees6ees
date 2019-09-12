@@ -1,6 +1,8 @@
 class Bee extends Grub {
-  constructor (5, 'yellow') {
+  constructor () {
+      super();
+      this.age = 5;
+      this.color = 'yellow'
       this.job = 'Keep on growing';
-    }
   }
 };
